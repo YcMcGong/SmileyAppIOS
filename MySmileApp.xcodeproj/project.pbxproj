@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C698FEC03C8E9BC97A30EDE /* Pods_MySmileApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A212369F201E99F2F6685 /* Pods_MySmileApp.framework */; };
+		F60525912068A5C30047EB3F /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60525902068A5C30047EB3F /* loginViewController.swift */; };
+		F60525932068A5CE0047EB3F /* selfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60525922068A5CE0047EB3F /* selfViewController.swift */; };
+		F60525952068A5DA0047EB3F /* discoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60525942068A5DA0047EB3F /* discoverViewController.swift */; };
+		F60525972068A5E50047EB3F /* friendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60525962068A5E50047EB3F /* friendViewController.swift */; };
+		F60525992068A5F30047EB3F /* captureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60525982068A5F30047EB3F /* captureViewController.swift */; };
+		F605259B2068A5FF0047EB3F /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605259A2068A5FF0047EB3F /* mapViewController.swift */; };
+		F6E8FF31204CDE1000B8BA11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E8FF30204CDE1000B8BA11 /* AppDelegate.swift */; };
+		F6E8FF36204CDE1000B8BA11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E8FF34204CDE1000B8BA11 /* Main.storyboard */; };
+		F6E8FF39204CDE1000B8BA11 /* MySmileApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6E8FF37204CDE1000B8BA11 /* MySmileApp.xcdatamodeld */; };
+		F6E8FF3B204CDE1000B8BA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E8FF3A204CDE1000B8BA11 /* Assets.xcassets */; };
+		F6E8FF3E204CDE1000B8BA11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E8FF3C204CDE1000B8BA11 /* LaunchScreen.storyboard */; };
+		F6E8FF49204CDE1000B8BA11 /* MySmileAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E8FF48204CDE1000B8BA11 /* MySmileAppTests.swift */; };
+		F6E8FF54204CDE1000B8BA11 /* MySmileAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E8FF53204CDE1000B8BA11 /* MySmileAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6E8FF45204CDE1000B8BA11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6E8FF25204CDE1000B8BA11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6E8FF2C204CDE1000B8BA11;
+			remoteInfo = MySmileApp;
+		};
+		F6E8FF50204CDE1000B8BA11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6E8FF25204CDE1000B8BA11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6E8FF2C204CDE1000B8BA11;
+			remoteInfo = MySmileApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		722A212369F201E99F2F6685 /* Pods_MySmileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySmileApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D600CDF3AD14E666A5F78B3 /* Pods-MySmileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySmileApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySmileApp/Pods-MySmileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9264C251241F46046240FD99 /* Pods-MySmileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySmileApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySmileApp/Pods-MySmileApp.release.xcconfig"; sourceTree = "<group>"; };
+		F60525902068A5C30047EB3F /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		F60525922068A5CE0047EB3F /* selfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfViewController.swift; sourceTree = "<group>"; };
+		F60525942068A5DA0047EB3F /* discoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverViewController.swift; sourceTree = "<group>"; };
+		F60525962068A5E50047EB3F /* friendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendViewController.swift; sourceTree = "<group>"; };
+		F60525982068A5F30047EB3F /* captureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = captureViewController.swift; sourceTree = "<group>"; };
+		F605259A2068A5FF0047EB3F /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		F6E8FF2D204CDE1000B8BA11 /* MySmileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySmileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E8FF30204CDE1000B8BA11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6E8FF35204CDE1000B8BA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6E8FF38204CDE1000B8BA11 /* MySmileApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySmileApp.xcdatamodel; sourceTree = "<group>"; };
+		F6E8FF3A204CDE1000B8BA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6E8FF3D204CDE1000B8BA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6E8FF3F204CDE1000B8BA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E8FF44204CDE1000B8BA11 /* MySmileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySmileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E8FF48204CDE1000B8BA11 /* MySmileAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySmileAppTests.swift; sourceTree = "<group>"; };
+		F6E8FF4A204CDE1000B8BA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E8FF4F204CDE1000B8BA11 /* MySmileAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySmileAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E8FF53204CDE1000B8BA11 /* MySmileAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySmileAppUITests.swift; sourceTree = "<group>"; };
+		F6E8FF55204CDE1000B8BA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6E8FF2A204CDE1000B8BA11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C698FEC03C8E9BC97A30EDE /* Pods_MySmileApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E8FF41204CDE1000B8BA11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E8FF4C204CDE1000B8BA11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AF51F103FE711DCB5B93834 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				722A212369F201E99F2F6685 /* Pods_MySmileApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5CF21A5F8A563A64E674523 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D600CDF3AD14E666A5F78B3 /* Pods-MySmileApp.debug.xcconfig */,
+				9264C251241F46046240FD99 /* Pods-MySmileApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F605258620689A4C0047EB3F /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F605258F2068A5B30047EB3F /* loginView */,
+				F605258D2068A5910047EB3F /* selfView */,
+				F605258C2068A5850047EB3F /* discoverView */,
+				F605258B2068A5760047EB3F /* friendView */,
+				F605258A2068A56A0047EB3F /* captureView */,
+				F60525892068A55C0047EB3F /* mapView */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F60525892068A55C0047EB3F /* mapView */ = {
+			isa = PBXGroup;
+			children = (
+				F605259A2068A5FF0047EB3F /* mapViewController.swift */,
+			);
+			path = mapView;
+			sourceTree = "<group>";
+		};
+		F605258A2068A56A0047EB3F /* captureView */ = {
+			isa = PBXGroup;
+			children = (
+				F60525982068A5F30047EB3F /* captureViewController.swift */,
+			);
+			path = captureView;
+			sourceTree = "<group>";
+		};
+		F605258B2068A5760047EB3F /* friendView */ = {
+			isa = PBXGroup;
+			children = (
+				F60525962068A5E50047EB3F /* friendViewController.swift */,
+			);
+			path = friendView;
+			sourceTree = "<group>";
+		};
+		F605258C2068A5850047EB3F /* discoverView */ = {
+			isa = PBXGroup;
+			children = (
+				F60525942068A5DA0047EB3F /* discoverViewController.swift */,
+			);
+			path = discoverView;
+			sourceTree = "<group>";
+		};
+		F605258D2068A5910047EB3F /* selfView */ = {
+			isa = PBXGroup;
+			children = (
+				F60525922068A5CE0047EB3F /* selfViewController.swift */,
+			);
+			path = selfView;
+			sourceTree = "<group>";
+		};
+		F605258F2068A5B30047EB3F /* loginView */ = {
+			isa = PBXGroup;
+			children = (
+				F60525902068A5C30047EB3F /* loginViewController.swift */,
+			);
+			path = loginView;
+			sourceTree = "<group>";
+		};
+		F605259C2068A6510047EB3F /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		F605259D2068A65E0047EB3F /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		F6E8FF24204CDE1000B8BA11 = {
+			isa = PBXGroup;
+			children = (
+				F6E8FF2F204CDE1000B8BA11 /* MySmileApp */,
+				F6E8FF47204CDE1000B8BA11 /* MySmileAppTests */,
+				F6E8FF52204CDE1000B8BA11 /* MySmileAppUITests */,
+				F6E8FF2E204CDE1000B8BA11 /* Products */,
+				B5CF21A5F8A563A64E674523 /* Pods */,
+				2AF51F103FE711DCB5B93834 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6E8FF2E204CDE1000B8BA11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6E8FF2D204CDE1000B8BA11 /* MySmileApp.app */,
+				F6E8FF44204CDE1000B8BA11 /* MySmileAppTests.xctest */,
+				F6E8FF4F204CDE1000B8BA11 /* MySmileAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E8FF2F204CDE1000B8BA11 /* MySmileApp */ = {
+			isa = PBXGroup;
+			children = (
+				F605259D2068A65E0047EB3F /* controllers */,
+				F605259C2068A6510047EB3F /* models */,
+				F605258620689A4C0047EB3F /* views */,
+				F6E8FF30204CDE1000B8BA11 /* AppDelegate.swift */,
+				F6E8FF34204CDE1000B8BA11 /* Main.storyboard */,
+				F6E8FF3A204CDE1000B8BA11 /* Assets.xcassets */,
+				F6E8FF3C204CDE1000B8BA11 /* LaunchScreen.storyboard */,
+				F6E8FF3F204CDE1000B8BA11 /* Info.plist */,
+				F6E8FF37204CDE1000B8BA11 /* MySmileApp.xcdatamodeld */,
+			);
+			path = MySmileApp;
+			sourceTree = "<group>";
+		};
+		F6E8FF47204CDE1000B8BA11 /* MySmileAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6E8FF48204CDE1000B8BA11 /* MySmileAppTests.swift */,
+				F6E8FF4A204CDE1000B8BA11 /* Info.plist */,
+			);
+			path = MySmileAppTests;
+			sourceTree = "<group>";
+		};
+		F6E8FF52204CDE1000B8BA11 /* MySmileAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6E8FF53204CDE1000B8BA11 /* MySmileAppUITests.swift */,
+				F6E8FF55204CDE1000B8BA11 /* Info.plist */,
+			);
+			path = MySmileAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6E8FF2C204CDE1000B8BA11 /* MySmileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E8FF58204CDE1000B8BA11 /* Build configuration list for PBXNativeTarget "MySmileApp" */;
+			buildPhases = (
+				CD5E0D57594A1BE2A4BAEE70 /* [CP] Check Pods Manifest.lock */,
+				F6E8FF29204CDE1000B8BA11 /* Sources */,
+				F6E8FF2A204CDE1000B8BA11 /* Frameworks */,
+				F6E8FF2B204CDE1000B8BA11 /* Resources */,
+				6E7A250BB79B2A6FC1525E3F /* [CP] Embed Pods Frameworks */,
+				F12D2AB996310392350F0619 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySmileApp;
+			productName = MySmileApp;
+			productReference = F6E8FF2D204CDE1000B8BA11 /* MySmileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6E8FF43204CDE1000B8BA11 /* MySmileAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E8FF5B204CDE1000B8BA11 /* Build configuration list for PBXNativeTarget "MySmileAppTests" */;
+			buildPhases = (
+				F6E8FF40204CDE1000B8BA11 /* Sources */,
+				F6E8FF41204CDE1000B8BA11 /* Frameworks */,
+				F6E8FF42204CDE1000B8BA11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6E8FF46204CDE1000B8BA11 /* PBXTargetDependency */,
+			);
+			name = MySmileAppTests;
+			productName = MySmileAppTests;
+			productReference = F6E8FF44204CDE1000B8BA11 /* MySmileAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6E8FF4E204CDE1000B8BA11 /* MySmileAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E8FF5E204CDE1000B8BA11 /* Build configuration list for PBXNativeTarget "MySmileAppUITests" */;
+			buildPhases = (
+				F6E8FF4B204CDE1000B8BA11 /* Sources */,
+				F6E8FF4C204CDE1000B8BA11 /* Frameworks */,
+				F6E8FF4D204CDE1000B8BA11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6E8FF51204CDE1000B8BA11 /* PBXTargetDependency */,
+			);
+			name = MySmileAppUITests;
+			productName = MySmileAppUITests;
+			productReference = F6E8FF4F204CDE1000B8BA11 /* MySmileAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6E8FF25204CDE1000B8BA11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Yicong Gong";
+				TargetAttributes = {
+					F6E8FF2C204CDE1000B8BA11 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6E8FF43204CDE1000B8BA11 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6E8FF2C204CDE1000B8BA11;
+					};
+					F6E8FF4E204CDE1000B8BA11 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6E8FF2C204CDE1000B8BA11;
+					};
+				};
+			};
+			buildConfigurationList = F6E8FF28204CDE1000B8BA11 /* Build configuration list for PBXProject "MySmileApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6E8FF24204CDE1000B8BA11;
+			productRefGroup = F6E8FF2E204CDE1000B8BA11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6E8FF2C204CDE1000B8BA11 /* MySmileApp */,
+				F6E8FF43204CDE1000B8BA11 /* MySmileAppTests */,
+				F6E8FF4E204CDE1000B8BA11 /* MySmileAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6E8FF2B204CDE1000B8BA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E8FF3E204CDE1000B8BA11 /* LaunchScreen.storyboard in Resources */,
+				F6E8FF3B204CDE1000B8BA11 /* Assets.xcassets in Resources */,
+				F6E8FF36204CDE1000B8BA11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E8FF42204CDE1000B8BA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E8FF4D204CDE1000B8BA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E7A250BB79B2A6FC1525E3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MySmileApp/Pods-MySmileApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySmileApp/Pods-MySmileApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5E0D57594A1BE2A4BAEE70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySmileApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F12D2AB996310392350F0619 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MySmileApp/Pods-MySmileApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySmileApp/Pods-MySmileApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6E8FF29204CDE1000B8BA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60525992068A5F30047EB3F /* captureViewController.swift in Sources */,
+				F60525932068A5CE0047EB3F /* selfViewController.swift in Sources */,
+				F60525952068A5DA0047EB3F /* discoverViewController.swift in Sources */,
+				F60525972068A5E50047EB3F /* friendViewController.swift in Sources */,
+				F6E8FF31204CDE1000B8BA11 /* AppDelegate.swift in Sources */,
+				F6E8FF39204CDE1000B8BA11 /* MySmileApp.xcdatamodeld in Sources */,
+				F60525912068A5C30047EB3F /* loginViewController.swift in Sources */,
+				F605259B2068A5FF0047EB3F /* mapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E8FF40204CDE1000B8BA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E8FF49204CDE1000B8BA11 /* MySmileAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E8FF4B204CDE1000B8BA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E8FF54204CDE1000B8BA11 /* MySmileAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6E8FF46204CDE1000B8BA11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6E8FF2C204CDE1000B8BA11 /* MySmileApp */;
+			targetProxy = F6E8FF45204CDE1000B8BA11 /* PBXContainerItemProxy */;
+		};
+		F6E8FF51204CDE1000B8BA11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6E8FF2C204CDE1000B8BA11 /* MySmileApp */;
+			targetProxy = F6E8FF50204CDE1000B8BA11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6E8FF34204CDE1000B8BA11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E8FF35204CDE1000B8BA11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6E8FF3C204CDE1000B8BA11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E8FF3D204CDE1000B8BA11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6E8FF56204CDE1000B8BA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6E8FF57204CDE1000B8BA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6E8FF59204CDE1000B8BA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D600CDF3AD14E666A5F78B3 /* Pods-MySmileApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JC764QSP5;
+				INFOPLIST_FILE = MySmileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MySmileApp.MySmileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6E8FF5A204CDE1000B8BA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9264C251241F46046240FD99 /* Pods-MySmileApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JC764QSP5;
+				INFOPLIST_FILE = MySmileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MySmileApp.MySmileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6E8FF5C204CDE1000B8BA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JC764QSP5;
+				INFOPLIST_FILE = MySmileAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MySmileApp.MySmileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySmileApp.app/MySmileApp";
+			};
+			name = Debug;
+		};
+		F6E8FF5D204CDE1000B8BA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JC764QSP5;
+				INFOPLIST_FILE = MySmileAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MySmileApp.MySmileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySmileApp.app/MySmileApp";
+			};
+			name = Release;
+		};
+		F6E8FF5F204CDE1000B8BA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JC764QSP5;
+				INFOPLIST_FILE = MySmileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MySmileApp.MySmileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySmileApp;
+			};
+			name = Debug;
+		};
+		F6E8FF60204CDE1000B8BA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JC764QSP5;
+				INFOPLIST_FILE = MySmileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MySmileApp.MySmileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySmileApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6E8FF28204CDE1000B8BA11 /* Build configuration list for PBXProject "MySmileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E8FF56204CDE1000B8BA11 /* Debug */,
+				F6E8FF57204CDE1000B8BA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E8FF58204CDE1000B8BA11 /* Build configuration list for PBXNativeTarget "MySmileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E8FF59204CDE1000B8BA11 /* Debug */,
+				F6E8FF5A204CDE1000B8BA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E8FF5B204CDE1000B8BA11 /* Build configuration list for PBXNativeTarget "MySmileAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E8FF5C204CDE1000B8BA11 /* Debug */,
+				F6E8FF5D204CDE1000B8BA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E8FF5E204CDE1000B8BA11 /* Build configuration list for PBXNativeTarget "MySmileAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E8FF5F204CDE1000B8BA11 /* Debug */,
+				F6E8FF60204CDE1000B8BA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6E8FF37204CDE1000B8BA11 /* MySmileApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6E8FF38204CDE1000B8BA11 /* MySmileApp.xcdatamodel */,
+			);
+			currentVersion = F6E8FF38204CDE1000B8BA11 /* MySmileApp.xcdatamodel */;
+			path = MySmileApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6E8FF25204CDE1000B8BA11 /* Project object */;
+}
